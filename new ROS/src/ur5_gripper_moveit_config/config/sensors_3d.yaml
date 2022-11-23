@@ -1,0 +1,10 @@
+# The name of this file shouldn't be changed, or else the Setup Assistant won't detect it
+sensors:
+  - filtered_cloud_topic: filtered_cloud # the depth data is published on this topic
+    max_range: 5.0 # maximum distance that is measured
+    max_update_rate: 1.0 # maximum rate at which the octomap is updated
+    padding_offset: 0.1 # padding is used for compensating the noise in the depth data.
+    padding_scale: 1.0
+    point_cloud_topic: /camera1/depth/points # topic on which the raw point cloud data is published
+    point_subsample: 1 
+    sensor_plugin: occupancy_map_monitor/PointCloudOctomapUpdater # this is the moveit pugin which we are using for getting the depth data.
