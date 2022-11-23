@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="176.00000610351563" minHeight="10.0" prefHeight="176.00000610351563" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="95.59998168945313" minHeight="5.999987792968767" prefHeight="34.399993896484375" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="197.5999755859375" minHeight="10.0" prefHeight="166.39998779296874" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="46.80002441406248" minHeight="10.0" prefHeight="21.600012207031227" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <MediaView fx:id="mediaview8" fitHeight="178.0" fitWidth="200.0" />
+      <MediaView fx:id="mediaview9" fitHeight="178.0" fitWidth="200.0" GridPane.columnIndex="1" />
+      <MediaView fx:id="mediaview10" fitHeight="178.0" fitWidth="200.0" GridPane.columnIndex="2" />
+      <MediaView fx:id="mediaview11" fitHeight="178.0" fitWidth="200.0" GridPane.columnIndex="3" />
+      <MediaView fx:id="mediaview12" fitHeight="170.0" fitWidth="200.0" GridPane.rowIndex="2" />
+      <MediaView fx:id="mediaview13" fitHeight="170.0" fitWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <MediaView fx:id="mediaview14" fitHeight="170.0" fitWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <MediaView fx:id="mediaview15" fitHeight="170.0" fitWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Up" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Down" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Left" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Right" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Front" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Back" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gripper Open" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gripper Close" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+   </children>
+</GridPane>
